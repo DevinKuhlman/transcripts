@@ -1,0 +1,341 @@
+/* (c) Copyright 2023 Acellus Academy */
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    white-space: normal;
+    font-kerning: normal;
+}
+
+img {
+    border: 0 none;
+}
+
+.page {
+    box-sizing: border-box;
+    background: white;
+    page-break-inside: avoid;
+    page: single;
+}
+
+.page:not(:first-child) {
+    page-break-before: always;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/***********************************/
+
+.container {
+    width: 768px;
+    height: 980px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+}
+
+.footerBlueLn {
+    width: 100%;
+    background-color: #e3ecf7;
+}
+
+.footerBottom {
+    margin: 0;
+    width: 100%;
+}
+
+.footerBottomLast {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.footerDiv {
+    width: 768px;
+    max-width: 768px;
+    height: 40px;
+    max-height: 40px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.footerDivLast {
+    width: 768px;
+    max-width: 768px;
+    height: 220px;
+    max-height: 220px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.footerNote {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 12px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.footerTbl1 td {
+    padding: 5px;
+    font-size: 12px;
+}
+
+.footerTbl2 td {
+    padding: 0;
+}
+
+.footerTD1 {
+    width: 40%;
+}
+
+.footerTD2 {
+    width: 30%;
+}
+
+.footerTD3 {
+    width: 30%;
+}
+
+.gradeScaleLbl {
+    font-weight: bold;
+}
+
+.gradeScaleTbl {
+    border: 1px solid #979797;
+}
+
+.gradeScaleTbl td {
+    padding: 0 1px;
+    font-size: 11px;
+}
+
+.gsData {
+    white-space: nowrap;
+}
+
+.gsSpacer {
+    width: 4%;
+}
+
+.gsSpacerV {
+    line-height: 75%;
+}
+
+.hdrAdrs {
+    margin: 5px 0;
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+.hdrDiv {
+    width: 768px;
+    max-width: 768px;
+    height: 160px;
+    max-height: 160px;
+    margin: 0 auto;
+    padding: 0;
+    background: url('/transcripts/images/header-bg.jpg') no-repeat top 0 left 0;
+    background-size: 80%;
+}
+
+.hdrImg1 {
+    width: 125px;
+}
+
+.hdrImg1HS {
+    margin: 0 7px;
+    width: 112px;
+}
+
+.hdrImg2 {
+    width: 220px;
+}
+
+.hdrImg3 {
+    position: relative;
+    right: 0;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.hdrTbl {
+    margin-top: 20px;
+}
+
+.hdrTbl td {
+    padding: 2px;
+    font-size: 13px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.hdrTD1 {
+    width: 17%;
+}
+
+.hdrTD2 {
+    width: 38%;
+    white-space: nowrap;
+}
+
+.hdrTD3 {
+    width: 5%;
+}
+
+.hdrTD4 {
+    width: 40%;
+    padding: 0;
+}
+
+.hdrTDLbl {
+    min-width: 100px;
+    width: 50%;
+    white-space: nowrap;
+}
+
+.main, .mainHS {
+    width: 768px;
+    max-width: 768px;
+    height: 780px;
+    max-height: 780px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.mainLast, .mainLastHS {
+    width: 768px;
+    max-width: 768px;
+    height: 600px;
+    max-height: 600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.mainHS, .mainLastHS {
+    background: url('/transcripts/images/aa-seal-watermark.jpg') no-repeat center center;
+    background-size: 50%;
+}
+
+.pageNumTD {
+    font-size: 11px;
+    text-align: right;
+}
+
+.section {
+    width: 98%;
+    margin: 5px auto;
+}
+
+.sectionDivider {
+    margin: 8px 0 15px;
+    border-top: 2px solid;
+}
+
+.sectionHdr {
+    color: #264079;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.signatureDate {
+    width: 100%;
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+.signatureTbl td {
+    border-top: 1px solid #979797;
+    font-size: 9px;
+    font-style: italic;
+    white-space: nowrap;
+}
+
+.tableCourses td {
+    padding: 2px;
+    border-bottom: 1px solid #979797;
+}
+
+.tableCoursesData td {
+    font-size: 11px;
+}
+
+.tableCoursesFinal td {
+    /*border-top: 1.5px solid #979797;*/
+    border-bottom: none;
+    font-size: 11px;
+}
+
+.tableCoursesHdr td {
+    padding-bottom: 5px;
+    border-bottom: none;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.tableCoursesLbl {
+    border: none;
+    background-color: #e3ecf7;
+    font-size: 11px;
+}
+
+/*
+.tableCoursesLbl td {
+    border-bottom: none;
+    background-color: #E3ECF7;
+    font-size: 11px;
+}
+*/
+
+.tdCenter {
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+.tdFirst {
+    width: 50%;
+}
+
+
+
+.tdGRD {
+   padding-left: 3px; 
+}
+
+.tdNarrow {
+    width: 3%;
+}
+
+.tdNoWrap {
+    white-space: nowrap;
+}
+
+.tdRight {
+    text-align: right;
+    white-space: nowrap;
+}
+
+.tdSpacer {
+    line-height: 150%;
+}
+
+.tdWide {
+    width: 48%;
+    vertical-align: top;
+}
+.tdGPACREDIT {
+    text-align: right;
+    white-space: nowrap;
+}
+
